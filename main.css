@@ -11,41 +11,66 @@ h1, h2 {
   margin: 0;
 }
 img {
-
+  padding: 7px;
+  border: 3px;
+  border-style: dashed;
+  border-color: rgb(0,206,209);
+  margin: 15px 0 15px 0;
+  float: left;
 }
 input {
-
+  height: 20px;
 }
 button {
-
+  background-color: #d3d3d3;
+  border-radius: 5px;
+  height: 25px;
+  margin-right: 10px;
 }
 nav ul {
-
+  clear: left;
+  padding: 10px 0 10px 0;
 }
 nav ul li {
-
+  display: inline-block;
+  padding-right: 25px;
 }
 .header {
-
+  background-color: rgb(0,240,240);
+  display: block;
 }
 .header h1 {
-
+  position: relative;
+  left: 20px;
+  top: 50px;
 }
 .footer {
-
+  background-color: #d3d3d3;
+  padding-top: 15px;
+  height: 150px;
+  margin-top: 20px;
 }
 .content {
-
+ padding-left: 100px;
 }
 .row {
 
 }
 .column {
-
+  display: inline-block;
+  width: 33%;
+  vertical-align: middle;
 }
 .note {
-
+  background-color: #6495ed;
+  color: white;
+  padding: 20px;
+  height: 200px;
+  margin-right: 20px;
 }
 .request {
-
+  padding: 40px;
+  border: 1px solid;
+  border-color: #d3d3d3;
+  margin-right: 20px;
 }
